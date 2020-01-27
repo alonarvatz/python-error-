@@ -17,7 +17,7 @@ ts.tracer(0)
 globals
 game = True
 
-# Functions
+
 def randombg():
     r = random.choice(c)
 
@@ -25,10 +25,10 @@ def exitcode():
     globals
     game = False
    
-# Keyboard bindings
+
 ts.onkeypress(randombg, "r")
 ts.onkeypress(exitcode, "exit")
-# Main loop
+
 while game:
     ts.update()
     ts.bgcolor(r)
