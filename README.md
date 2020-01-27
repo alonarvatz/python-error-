@@ -26,7 +26,7 @@ def exitcode():
     game = False
    
 # Keyboard bindings
-ts.onkeypress(random-bg, "r")
+ts.onkeypress(randombg, "r")
 ts.onkeypress(exitcode, "exit")
 # Main loop
 while game:
